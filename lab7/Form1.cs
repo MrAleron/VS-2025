@@ -16,5 +16,10 @@ namespace lab7
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Йде студент на екзамен і думає: дай Боже, щоб білет був не про Git...");
+        }
     }
 }
